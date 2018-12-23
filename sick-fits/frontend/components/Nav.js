@@ -1,15 +1,26 @@
 import Link from 'next/link'
+import StyNav from './styles/NavStyles'
+
 
 const Nav = () => {
     return (
-        <div>
-            <Link href="/">
-                <a>Inici</a>
+        <StyNav>
+            <Link href="/items">
+                <a>Items</a>
             </Link>
             <Link href="/sell">
                 <a>Sell</a>
             </Link>
-        </div>
+            <Link href="/signup">
+                <a>Signup</a>
+            </Link>
+            <Link href="/orders">
+                <a>Orders</a>
+            </Link>
+            <Link href="/me">
+                <a>Account</a>
+            </Link>
+        </StyNav>
         
     );
 };

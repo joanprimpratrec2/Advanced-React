@@ -22,9 +22,7 @@ export default class MyApp extends App {
 
     return (
         <Container>
-            <p>soc de l'_app. dins de container</p>
             <Page {...pageProps}>
-                <p>soc de l'_app. dins de Page</p>
                 <Component  />
             </Page>
       </Container>

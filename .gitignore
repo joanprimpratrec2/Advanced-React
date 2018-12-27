@@ -5,6 +5,6 @@ haters/
 .next/
 .build/
 layout.md
-variables.env
-sick-fits/backend/variables.env
-sick-fits/backend/variables.env.sample
+*.env
+sick-fits/backend/*.env
+sick-fits/backend/*.env.sample

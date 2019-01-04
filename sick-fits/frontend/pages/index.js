@@ -1,10 +1,8 @@
-import Link from 'next/link'
+import Items from './items'
 
 const Inici = props => (
-  <div>
-    <p>dins Inici component</p>
-    
-   
+  <div>    
+    <Items />  
   </div>
 )
 

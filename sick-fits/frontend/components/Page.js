@@ -21,7 +21,7 @@ const StyFullPage = styled.div`
 const StyInner = styled.div`
     max-width: ${props => props.theme.maxWidth};
     margin: 0 auto;
-    padding: 2 rem;
+    padding: 2rem;
 `
 injectGlobal`
   @font-face {

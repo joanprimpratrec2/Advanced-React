@@ -67,7 +67,7 @@ const Header = () => {
             <div className="sub-bar">
                 <p>Search</p>
             </div>
-            <div className="sub-bar">
+            <div >
                 Cart
             </div>
         </StyledHeader>
